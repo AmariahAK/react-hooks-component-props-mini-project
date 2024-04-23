@@ -12,7 +12,7 @@ const App = () => {
       <Header />
       <main>
         <About />
-        <ArticleList articles={blog.articles} />
+        <ArticleList articles={blog.posts} />
       </main>
     </div>
   );
