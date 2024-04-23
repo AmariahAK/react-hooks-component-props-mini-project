@@ -1,9 +1,9 @@
-import logo from "../assets/logo";
+import logo from "./logo"; // Import the blog logo image
 
 const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+  name: "Code Store", // Replace with your blog name
+  image: logo, // Use the imported logo directly
+  about: "A blog about learning React", // Blog description
   posts: [
     {
       id: 1,
@@ -22,6 +22,7 @@ const blogData = {
     {
       id: 3,
       title: "Function vs Class Components",
+      date: "December 8, 2020",
       preview: "React, meet OOJS.",
       minutes: 47,
     },
