@@ -1,19 +1,21 @@
-import React from "react";
-import Header from "./components/Header";
-import About from "./components/About";
-import ArticleList from "./components/ArticleList";
-import blogData from "./data/blog"; // Import blog data
+// src/components/App.js
 
-function App() {
-  const { name, image, about, posts } = blogData; // Destructure blog data
+import React from 'react';
+import Header from './Header';
+import About from './About';
+import ArticleList from './ArticleList';
+import blog from '../data/blog';
 
+const App = () => {
   return (
-    <div>
-      <Header name={name} /> {/* Render the Header component with the blog name */}
-      <About image={image} about={about} /> {/* Render the About component with blog image and description */}
-      <ArticleList articles={posts} /> {/* Render the ArticleList component with blog posts */}
+    <div className="app">
+      <Header />
+      <main>
+        <About />
+        <ArticleList articles={blog.articles} />
+      </main>
     </div>
   );
-}
+};
 
 export default App;

@@ -1,4 +1,4 @@
-import logo from "./logo"; // Import the blog logo image
+import logo from './logo';
 
 const blogData = {
   name: "Code Store", // Replace with your blog name
