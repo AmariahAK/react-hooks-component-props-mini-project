@@ -4,7 +4,7 @@ import React from 'react';
 import Header from './Header';
 import About from './About';
 import ArticleList from './ArticleList';
-import blog from '../data/blog';
+import blogData from '../data/blog';
 
 const App = () => {
   return (
