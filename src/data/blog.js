@@ -1,7 +1,7 @@
 import logo from './logo';
 
 const blogData = {
-  name: "Code Store", // Replace with your blog name
+  name: "Underreacted", // Replace with your blog name
   image: logo, // Use the imported logo directly
   about: "A blog about learning React", // Blog description
   posts: [
